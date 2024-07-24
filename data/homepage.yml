@@ -1,0 +1,246 @@
+# page title
+head:
+  title: "Mouhameth's Portfolio"
+  description: "MDK Portfolio."
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Mouhameth."
+  subtitle: "Telecommunications Enthusiast"
+  description: >
+    Welcome to my personal site! I'm Mouhameth, a final-year Master's student in Telecommunications, deeply passionate about cybersecurity, cloud computing, networking, and cellular networks. Currently, I am actively seeking a 6-month internship starting in February 2025. Based in Bordeaux, this site serves as a platform to highlight my journey, projects, and ambitions in the dynamic realm of technology. Feel free to connect with me on LinkedIn or explore my GitHub for further insights into my work and interests.
+  image:
+    x: "images/showcase/showcase.png"
+    _2x: "images/showcase/showcase@2x.png"
+  imageMobile:
+    x: "images/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://www.linkedin.com/in/mouhameth-ka-aaa3a7203/?locale=en_US"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/mouhameth-ka-aaa3a7203/?locale=en_US"
+
+    - icon: "github"
+      URL: "https://github.com/mouhamethdk"
+
+   # - icon: "twitter"
+  #    URL: "https://twitter.com/your-twitter-profile"
+
+   # - icon: "instagram"
+    #  URL: "https://www.instagram.com/your-instagram-profile"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: >
+    <p class="lead">
+      I am Mouhameth, a Master's student in Telecommunications with a focus on cloud computing, networking, cybersecurity, and cellular networks. My academic journey has equipped me with a solid foundation in these fields, and I am eager to apply my knowledge to real-world challenges. 
+      </p>
+      <p class="lead">
+      Throughout my studies, I have engaged in various projects and internships that have honed my skills and deepened my interest in these areas. I am particularly drawn to the evolving landscape of cloud technologies and the critical role of cybersecurity in protecting our digital world. My goal is to contribute to innovative solutions that enhance connectivity and security in the telecommunications industry.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/mouhameth-ka-aaa3a7203/?locale=en_US"
+  image:
+    x: "images/who-am-i/user-picture.png"
+    _2x: "images/who-am-i/user-picture@2x.png"
+    
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Bordeaux Graduate School of Engineering (Enseirb-Matmeca) "
+      year: "2022-2025"
+      degree: "Master of Science (MSc), Telecommunications"
+
+    - university: "Lycée Henri Poincaré"
+      year: "2020-2022"
+      degree: "Two-year intensive program in Maths, Physics, Chemistry and Computer Science preparing for nationwide entrance in top French graduate schools of Engineering."
+
+    - university: "Prytanée Militaire de Saint-Louis"
+      year: "2013-2020"
+      degree: "High School Diploma - Military school attended after a competitive entrance examination "
+      
+   
+      
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: >
+    My journey in the field of telecommunications has been marked by hands-on experiences and impactful projects. Here are some highlights from my professional and academic endeavors.
+  #button2:
+   # icon: "icon-linkedin-fill"
+  #  btnText: "Linkedin"
+   # URL: "https://www.linkedin.com/in/mouhameth-ka-aaa3a7203/?locale=en_US"
+#
+ # button3:
+  #  icon: "icon-github-fill"
+   # btnText: "Github"
+    #URL: "https://www.linkedin.com/in/mouhameth-ka-aaa3a7203/?locale=en_US"
+      
+  button:
+    icon: "icon-profile-fill"
+    btnText: "My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Title"
+      company: "Serious Business, Inc"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Title"
+      company: "Fancy Company, Inc"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Title"
+      company: "Company, Inc"
+      duration: "Jun 2009 - Mar 2010"
+      
+    - title: "Sr. Title"
+      company: "Serious Business, Inc"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Title"
+      company: "Fancy Company, Inc"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Title"
+      company: "Company, Inc"
+      duration: "Jun 2009 - Mar 2010"
+  
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: true
+
+  clients:
+    - logo:
+        x: "images/clients/asgardia.png"
+        _2x: "images/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "images/clients/earth-2.png"
+        _2x: "images/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "images/clients/goldline.png"
+        _2x: "images/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "images/clients/kanba.png"
+        _2x: "images/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "images/clients/zoo-tv.png"
+        _2x: "images/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "images/clients/ztos.png"
+        _2x: "images/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "images/works/radity-finance.jpg"
+        _2x: "images/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "images/works/robo-advisor.jpg"
+        _2x: "images/works/robo-advisor@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "images/works/radity-finance.jpg"
+        _2x: "images/works/radity-finance@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "images/testimonials/daniel-jordan.jpg"
+        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "images/testimonials/antonio-willis.jpg"
+        _2x: "images/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://formspree.io/f/mdknkbgj"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+33 6 63 70 24 92"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mka001@enseirb-matmeca.fr">mka001@enseirb-matmeca.fr</a>'
+  address:
+    title: "Address"
+    address: "33000, Bordeaux"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
