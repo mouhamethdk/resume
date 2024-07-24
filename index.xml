@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://mouhamethdk.github.io/resume/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0100</lastBuildDate><atom:link href="https://mouhamethdk.github.io/resume/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intern - COSYS-ERENA, Université Gustave Eiffel</title>
+      <link>https://mouhamethdk.github.io/resume/experience/cosys/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0100</pubDate>
+      
+      <guid>https://mouhamethdk.github.io/resume/experience/cosys/</guid>
+      <description>Implementing a 5G Network Emulator using Open Air Interface During my internship at the COSYS-ERENA research laboratory at Université Gustave Eiffel, I worked on implementing a 5G network emulator based on the Open Air Interface platform. This internship provided an opportunity to contribute to cutting-edge research in cellular communication technologies.
+Key Responsibilities and Achievements: Study and Documentation Review: I thoroughly reviewed documentation related to the Open Air Interface platform and associated tools such as Open5GS and Docker.</description>
+    </item>
+    
+    <item>
+      <title>Intern - GROUPE SONATEL</title>
+      <link>https://mouhamethdk.github.io/resume/experience/sonatel/</link>
+      <pubDate>Sat, 03 Jun 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://mouhamethdk.github.io/resume/experience/sonatel/</guid>
+      <description>Internship at GROUPE SONATEL, Dakar Region, Senegal During my internship at GROUPE SONATEL in the Dakar region of Senegal, I immersed myself in diverse aspects of telecommunications infrastructure, gaining invaluable hands-on experience.
+Responsibilities:   Studied Sonatel&amp;rsquo;s Transmission Backbone: Conducted in-depth analysis of Sonatel&amp;rsquo;s terrestrial network backbone, gaining insights into its structure and operational challenges.
+  Assisted in Equipment Supervision and Incident Resolution: Supported equipment supervision, managed circuits, and contributed to incident resolution at the ACE consortium&amp;rsquo;s Submarine Network Operations Center (SNOC).</description>
+    </item>
+    
+  </channel>
+</rss>
