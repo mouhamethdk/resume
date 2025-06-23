@@ -7,6 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 May 2024 00:00:00 +0100</lastBuildDate><atom:link href="https://mouhamethdk.github.io/resume/experience/index.xml" rel="self" type="application/rss+xml" />
+<item>
+  <title>Intern - Wavestone</title>
+  <link>https://mouhamethdk.github.io/resume/experience/wavestone/</link>
+  <pubDate>Sat, 01 Feb 2025 00:00:00 +0100</pubDate>
+
+  <guid>https://mouhamethdk.github.io/resume/experience/wavestone/</guid>
+  <description>Designing a Modular Data Platform on AWS As a Cloud &amp; DevOps intern at Wavestone, I built a modular data platform on AWS, deploying infrastructure with Terraform and GitHub Actions and integrating Falco for runtime security.</description>
+</item>
     <item>
       <title>Intern - COSYS-ERENA, Université Gustave Eiffel</title>
       <link>https://mouhamethdk.github.io/resume/experience/cosys/</link>
