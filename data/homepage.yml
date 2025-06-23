@@ -8,7 +8,7 @@ showcase:
   title: "Hello, I’m Mouhameth."
   subtitle: "Telecommunications Enthusiast"
   description: >
-    Welcome to my personal site! I'm Mouhameth, a final-year Master's student in Telecommunications, deeply passionate about cybersecurity, cloud computing, networking, and cellular networks. Currently, I am actively seeking a 6-month internship starting in February 2025. Based in Bordeaux, this site serves as a platform to highlight my journey, projects, and ambitions in the dynamic realm of technology. Feel free to connect with me on LinkedIn or explore my GitHub for further insights into my work and interests.
+    Welcome to my personal site! I'm Mouhameth, a final-year Master's student in Telecommunications, deeply passionate about cybersecurity, cloud computing, networking, and cellular networks. Currently, I am actively seeking a permanent role in cloud architecture starting September 2025. Based in Bordeaux, this site serves as a platform to highlight my journey, projects, and ambitions in the dynamic realm of technology. Feel free to connect with me on LinkedIn or explore my GitHub for further insights into my work and interests.
   image:
     x: "images/showcase/showcase.png"
     _2x: "images/showcase/showcase@2x.png"
@@ -93,29 +93,17 @@ experience:
     URL: "#"
 
   items:
-    - title: "Sr. Title"
-      company: "Serious Business, Inc"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Consultant Cloud & DevOps"
+      company: "Wavestone"
+      duration: "Feb 2025 - Aug 2025"
 
-    - title: "Sr. Title"
-      company: "Fancy Company, Inc"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Intern - COSYS-ERENA"
+      company: "Université Gustave Eiffel"
+      duration: "Jun 2024 - Sep 2024"
 
-    - title: "Jr. Title"
-      company: "Company, Inc"
-      duration: "Jun 2009 - Mar 2010"
-      
-    - title: "Sr. Title"
-      company: "Serious Business, Inc"
-      duration: "Feb 2011 - Sep 2019"
-
-    - title: "Sr. Title"
-      company: "Fancy Company, Inc"
-      duration: "Apr 2010 - Jan 2011"
-
-    - title: "Jr. Title"
-      company: "Company, Inc"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Intern"
+      company: "Groupe SONATEL - Orange"
+      duration: "Jul 2023 - Sep 2023"
   
 
 # Client & Work
@@ -229,7 +217,7 @@ contact:
     number: "+33 6 63 70 24 92"
   email:
     title: "Email"
-    email: '<a href="mailto:mka001@enseirb-matmeca.fr">mka001@enseirb-matmeca.fr</a>'
+    email: '<a href="mailto:mouhameth_doudou.ka@enseirb-matmeca.fr">mouhameth_doudou.ka@enseirb-matmeca.fr</a>'
   address:
     title: "Address"
     address: "33000, Bordeaux"
