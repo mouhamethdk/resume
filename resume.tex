@@ -1,0 +1,163 @@
+\documentclass[letterpaper,10pt]{article}
+
+% --------------------- %
+%        Packages       %
+% --------------------- %
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{xcolor}
+
+% --------------------- %
+%       Colors & Fonts  %
+% --------------------- %
+
+\definecolor{accentTitle}{HTML}{0A5484} % Deep Blue for titles
+\definecolor{accentLine}{HTML}{707070}  % Grey line color
+\usepackage{CormorantGaramond} % Elegant Serif Font for titles
+\usepackage{charter} % Simple, professional serif font
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\urlstyle{same}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+\setlength{\multicolsep}{-3.0pt}
+
+% --------------------- %
+%      Custom Commands  %
+% --------------------- %
+
+% Title Section
+\newcommand{\documentTitle}[2]{
+  \begin{center}
+    {\Huge\color{accentTitle} #1}\\
+    \vspace{6pt}
+    \href{mailto:#2}{\faEnvelope\ #2} ~|~
+    \href{https://linkedin.com/in/mouhameth-ka-aaa3a7203}{\faLinkedin\ Mouhameth Ka} ~|~
+    \href{https://github.com/mouhamethdk}{\faGithub\ mouhamethdk} ~|~
+    \faPhone\ 06 63 70 24 92
+    \vspace{6pt}
+    {\color{accentLine} \hrule}
+  \end{center}
+}
+
+% Section Titles with Horizontal Line
+\titleformat{\section}{
+  \vspace{-5pt}
+  \color{accentTitle}\large\bfseries
+}{}{0em}{}[\color{accentLine}\titlerule]
+
+% Custom section for contact information
+\newcommand{\headingBf}[2]{
+  \hspace{10pt}\textbf{#1}\hfill#2\\
+}
+
+% Resume list formatting
+\newenvironment{resume_list}{
+  \vspace{-5pt}
+  \begin{itemize}[itemsep=-2px, leftmargin=30pt]
+}{
+  \end{itemize}
+}
+
+% Bullets for itemized lists
+\renewcommand\labelitemi{--}
+
+% --------------------- %
+%      CV Content       %
+% --------------------- %
+
+\begin{document}
+
+\documentTitle{Mouhameth Ka}{mouhameth\_doudou.ka@enseirb-matmeca.fr}
+
+\section{R\'esum\'e}
+Futur dipl\'om\'e en ing\'enierie des T\'el\'ecommunications \`a l’ENSEIRB-MATMECA, sp\'ecialis\'e en \textbf{R\'eseaux, S\'ecurit\'e et Objets Connect\'es}. Passionn\'e par la \textbf{cybers\'ecurit\'e}, le \textbf{cloud} et la culture \textbf{DevOps}, avec une aspiration \`a devenir architecte cloud et/ou s\'ecurit\'e. Recherche d’un \textbf{CDI} \`a partir de \textbf{septembre 2025 }dans le cloud.
+
+\section{Comp\'etences}
+\begin{multicols}{2}
+\begin{itemize}[itemsep=-1px, parsep=1pt, leftmargin=75pt]
+\item[\textbf{Cloud}] AWS (S3, Glue, Athena, Lake Formation, Lambda, IAM)
+\item[\textbf{Infrastructure as Code}] Terraform, GitHub Actions
+\item[\textbf{Conteneurisation}] Docker, Kubernetes (Helm, Falco)
+\item[\textbf{Langages}] Python, Bash, C
+\item[\textbf{Automatisation}] CI/CD, Git, Ansible
+\item[\textbf{OS}] Linux (Ubuntu, Kali), Windows
+\item[\textbf{S\'ecurit\'e}] Runtime security, Falco, IAM, Active Directory
+\end{itemize}
+\end{multicols}
+
+\section{Exp\'eriences}
+
+\textbf{Wavestone (stage de fin d’\'etudes)} Consultant Cloud et DevOps - Data Platform et S\'ecurit\'e \hfill F\'evrier 2025 -- Ao\^ut 2025 (Paris)
+\begin{itemize}[leftmargin=0.15in]
+\item Conception d'une plateforme de donn\'ees modulaire sur \textbf{AWS} (data lake S3, Glue, IAM, Lake Formation).
+\item Mise en place d'une pipeline CI/CD pour d\'eployer l'infra via \textbf{Terraform} et \textbf{GitHub Actions}.
+\item Formalisation des r\^oles d’acc\`es (Data Engineer, Data Scientist) avec contr\^ole fin des permissions.
+\item Int\'egration de \textbf{Falco} pour la d\'etection d’activit\'es suspectes en runtime dans un cluster Kubernetes.
+\end{itemize}
+
+\textbf{Universit\'e Gustave Eiffel - Laboratoire COSYS-ERENA}\
+Stage d'application en ing\'enierie r\'eseaux 5G \hfill Juin 2024 -- Septembre 2024 (Bordeaux)
+\begin{itemize}[leftmargin=0.15in]
+\item Mise en place d'un r\'eseau 5G avec Open5gs, UERANSIM, OpenAirInterface et configuration d’\'equipements (USRP, antennes).
+\item Automatisation du d\'eploiement de r\'eseaux 5G via \textbf{Docker} et \textbf{Docker-Compose}.
+\end{itemize}
+
+\textbf{Groupe SONATEL - Orange} \
+Stage d\'ecouverte \hfill Juillet 2023 -- Septembre 2023 (Dakar, S\'en\'egal)
+\begin{itemize}[leftmargin=0.15in]
+\item Etude du backbone de transmission et supervision des \'equipements au sein du SNOC pour les c\^ables ACE.
+\item Introduction \`a la gestion de datacenters et aux mod\`eles de \textbf{services cloud}.
+\end{itemize}
+
+\section{Formation}
+\textbf{ENSEIRB-MATMECA} \hfill Bordeaux, France\\
+Ing\'enieur en T\'el\'ecommunications, Sp\'ecialisation R\'eseaux, S\'ecurit\'e \hfill 2022 -- 2025 \\
+\textbf{Lyc\'ee Henri Poincar\'e} \hfill Nancy, France\\
+Classes pr\'eparatoires aux grandes \'ecoles - Fili\`ere PC \hfill 2020 -- 2022
+
+\section{Projets}
+
+\textbf{Prototype de marketplace cloud s\'ecuris\'ee} \hfill En cours (10 ECTS - 250h)\\
+\textbf{Projet semestriel }| \'Equipe de 7
+\begin{itemize}[leftmargin=0.15in]
+\item Plateforme d’ex\'ecution d’applications sur donn\'ees chiffr\'ees via enclaves \textbf{Intel SGX} et \textbf{blockchain} pour assurer la transparence.
+\end{itemize}
+
+\textbf{IdentityGuard} \hfill F\'evrier 2023 -- Mai 2023 (10 ECTS - 250h)\\
+\textbf{Prix du meilleur projet semestriel} | \~Equipe de 10
+\begin{itemize}[leftmargin=0.15in]
+\item Application de v\'erification d’\^age via blockchain Ethereum et ZKPs. Stack MERN, d\'eploiement sur DigitalOcean.
+\end{itemize}
+
+\section{Certifications}
+\begin{resume_list}
+\item \textbf{AWS Cloud Practitioner (en cours)}
+\item \textbf{eJPT Junior Penetration Tester (en pr\'eparation)}
+\item \textbf{TryHackMe} : Introduction to Cyber Security, Pre Security, Jr Penetration Tester
+\end{resume_list}
+
+\section{Langues}
+
+\begin{resume_list}
+\item \textbf{Fran\c{c}ais} : langue maternelle
+\item \textbf{Anglais} : IELTS 7.5 (niveau C1)
+\item \textbf{Allemand} : notions de base
+\end{resume_list}
+
+\end{document}
